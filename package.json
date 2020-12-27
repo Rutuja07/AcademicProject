@@ -1,0 +1,33 @@
+{
+  "name": "mec-drive-master",
+  "version": "1.0.0",
+  "description": "MEC-Drive is a carpool application built for college students (MEC-ians) to promote shared travelling among college students. The application is currently in prototype stage. The application performs basic functionalities like authentication,send a ride request,accepting ride requests,contact students who has accepted the requests and delete ride requests.",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^3.2.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "mongoose": "^5.11.8",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=production node server",
+    "dev": "cross-env NODE_ENV=development nodemon server"
+  },
+  "author": "",
+  "license": "ISC"
+}

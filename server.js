@@ -8,7 +8,7 @@ const app = express();
 
 // Connection to mongodb
 async function connectDb(){
-mongoose.connect('mongodb+srv://MECDRIVE:Rutuja07@cluster0.oo5aw.mongodb.net/myproject?retryWrites=true&w=majority', {useNewUrlParser : true, useUnifiedTopology: true});
+mongoose.connect('======', {useNewUrlParser : true, useUnifiedTopology: true});
 console.log("db connected");
 }
 connectDb()
